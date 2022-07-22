@@ -1,9 +1,6 @@
-# NHS Number Generator
+# Test Only NHS Number Generator
 
-[![Coverage Status](https://coveralls.io/repos/github/Iain-S/nhs_number_generator/badge.svg?branch=master)](https://coveralls.io/github/Iain-S/nhs_number_generator?branch=master)
-[![Build Status](https://travis-ci.org/Iain-S/nhs_number_generator.svg?branch=master)](https://travis-ci.org/Iain-S/nhs_number_generator)
-
-Generate and validate NHS numbers in Python 2.7+ and 3.
+Generate test NHS numbers in Python 2.7+ and 3.
 
 ## To use as a script
 
@@ -38,6 +35,6 @@ optional arguments:
 ```python
 import generate_nhs_numbers
 
-for nhs_number in generate_nhs_numbers.random_nhs_number_generator([(489000000, 489999999)]):
+for nhs_number in generate_nhs_numbers.random_nhs_number_generator([(999000000, 999999999)]):
     print(nhs_number)
 ```
