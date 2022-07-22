@@ -63,7 +63,7 @@ def calculate_check_digit(nhs_number):
         return eleven_minus_remainder
 
 
-def deterministic_nhs_number_generator(ranges=[(400000000, 499999999), (600000000, 708800001)]):
+def deterministic_nhs_number_generator(ranges=[(999000000, 999999999)]):
     """Returns a generator for a predictable sequence of 10-digit NHS numbers.
 
     The default ranges are the ones currently issued in England, Wales and the Isle of Man.  Numbers outside of this
